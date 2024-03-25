@@ -474,6 +474,10 @@ button {
   display: flex;
   align-items: baseline;
 }
+
+.form-container {
+}
+
 .footer-icons-link {
   background-color: #4d5ae5;
   width: 100%;
