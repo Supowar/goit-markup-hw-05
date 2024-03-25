@@ -476,6 +476,7 @@ button {
 }
 
 .form-container {
+  margin-left: auto;
 }
 
 .footer-icons-link {
@@ -505,7 +506,6 @@ button {
 
 .subscribe-form {
   display: flex;
-  flex-direction: column;
   gap: 24px;
 }
 
@@ -556,6 +556,7 @@ button {
   position: fixed;
   top: 0;
   left: 0;
+  display: none;
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
