@@ -719,3 +719,20 @@ button {
   justify-content: center;
   fill: transparent;
 }
+.custom-span.checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.custom-span svg use {
+  pointer-events: none;
+}
+
+.custom-span.checked svg use {
+  pointer-events: auto;
+}
+
+.custom-span svg use:hover {
+  fill: #your-hover-color;
+}
