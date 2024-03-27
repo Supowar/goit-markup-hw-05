@@ -633,6 +633,11 @@ button {
 .form-group {
   margin-bottom: 8px;
 }
+
+.form-group-4 {
+  margin-bottom: 16px;
+}
+
 .label-style {
   font-size: 12px;
   line-height: 1.17;
