@@ -507,17 +507,24 @@
             </div>
           </div>
           <!-- 5 -->
-          <div class="form-group">
+          <div class="form-group-5">
             <div class="checkbox-container">
               <input
+                id="user-privacy"
                 type="checkbox"
-                id="user-agreement"
-                name="user-agreement"
-                class="checkbox-style"
+                name="user-privacy"
+                class="visually-hidden"
+                value="true"
               />
-              <label for="user-agreement" class="label-style"
-                >I agree to the terms and conditions</label
-              >
+              <label for="user-privacy">
+                I accept the terms and conditions of the
+                <span>
+                  <svg width="10" height="8" class="some-class">
+                    <use href="./images/icon.svg#some-id"></use>
+                  </svg>
+                </span>
+                <a href="#" class="some-other-class">Privacy Policy</a>
+              </label>
             </div>
           </div>
         </form>
