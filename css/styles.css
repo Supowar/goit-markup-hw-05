@@ -711,6 +711,7 @@ button {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  margin: 0 auto;
 }
 
 .custom-span {
